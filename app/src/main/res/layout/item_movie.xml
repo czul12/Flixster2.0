@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -17,14 +18,14 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
         android:layout_marginTop="7dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:text="Fast  Furious Presents: Fast and furious 100"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        tools:text="Fast  Furious Presents: Fast and furious 100" />
 
     <TextView
         android:id="@+id/tvOverview"
@@ -36,12 +37,6 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@id/ivPoster"
-        android:text="A spinoff off of the zany qorky lovable charcter you have seen 1 million times in thesemovies." />
-    <![CDATA[
+        tools:text="A spinoff off of the zany qorky lovable charcter you have seen 1 million times in thesemovies." />
 
-
-
-    />
-
-]]>
 </RelativeLayout>
